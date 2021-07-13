@@ -82,7 +82,9 @@
     width: 1000px;
 
 }
+.dd{
 
+}
 
 .lvl-title {
     text-align: left;
@@ -90,6 +92,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    margin-left: 100px;
 }
 
 .lvl-img {
@@ -106,6 +109,7 @@
 
 .lvls-head-img {
     margin-top: 20px;
+    margin-left: 120px;
 }
 
 .lvls-head-img img {
@@ -122,8 +126,11 @@
     letter-spacing: 0px;
     color: #8E9395;
     opacity: 1;
+    margin-left: 100px;
 }
-
+.lvls-icons{
+    margin-left: 90px;
+}
 .lvl-ez {
     text-align: center;
     font: normal normal normal 50px/78px DIN Next LT W23;
@@ -219,7 +226,7 @@
 
 .logo {
     float: right;
-    margin-right: 138px;
+    margin-right: 28px;
     margin-top: 13px;
 
 }
@@ -230,6 +237,8 @@
 .hubs {
     margin-left: 70px;
     display: flex;
+
+    justify-content: center;
 }
 
 .hub1 {
