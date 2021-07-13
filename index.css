@@ -1,3 +1,286 @@
-.main{
+.main {
+    top: 0px;
+    left: 0px;
+    width: 2023px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    top: 1393px;
+    left: 0px;
+    width: 2023px;
+    height: 464px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 1493px;
+    left: 172px;
+    width: 732px;
+    height: 282px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0.5px 60px #DBDBDB29;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.text {
+    top: 1568px;
+    left: 213px;
+    width: 650px;
+    height: 132px;
+    text-align: center;
+    font: normal normal normal 30px/44px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+}
+
+.info-image1 {
+    margin-top: -12%;
+    top: 1411px;
+    left: 464px;
+    width: 148px;
+    height: 165px;
+    background: transparent url('img/08.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tracks {
+    margin-top: 5%;
+    display: flex;
+}
+
+/* track 01  */
+
+.track01 {
+    top: 2318px;
+    left: 269px;
+    width: 583px;
+    height: 596px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 80px #00000029;
+    border-radius: 134px;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-right: -250px;
+    margin-top: 55px;
+}
+
+.track-image01 {
+    top: 2398px;
+    left: 324px;
+    width: 451px;
+    height: 486px;
+    background: transparent url('images/Path\ 24.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag01 {
+    top: 2341px;
+    left: 359px;
+    width: 88px;
+    height: 115px;
+    background: transparent url('images/03.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.icons01 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: -35px;
+    margin-left: 25px;
+}
+
+.track-text01 {
+    top: 2541px;
+    left: 355px;
+    width: 389px;
+    height: 114px;
+    text-align: center;
+    font: normal normal normal 26px/38px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px;
+    margin-top: 105px;
+}
+
+/* track 2 */
+
+.track {
+    top: 2202px;
+    left: 604px;
+    width: 753px;
+    height: 712px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 80px #00000029;
+    border-radius: 134px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    /* integer */
+}
+
+.track-image1 {
+    top: 2319px;
+    left: 672px;
+    width: 625px;
+    height: 540px;
+    background: transparent url('images/Path\ 2.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag2 {
+    top: 2341px;
+    left: 359px;
+    width: 88px;
+    height: 115px;
+    background: transparent url('img/03.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: -35px;
+}
+
+.kotlin {
+    top: 2241px;
+    left: 1105px;
+    width: 133px;
+    height: 104px;
+    background: transparent url('img/010101.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 75px;
+    margin-right: -55px;
+}
+
+.tag {
+    top: 2240px;
+    left: 697px;
+    width: 166px;
+    height: 158px;
+    background: transparent url('img/ic.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: -55px;
+    margin-top: -35px;
+}
+
+.track-text {
+    top: 2489px;
+    left: 733px;
+    width: 495px;
+    height: 255px;
+    text-align: right;
+    font: normal normal normal 35px/51px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px;
+}
+
+/* track 03 */
+
+.track03 {
+    top: 2319px;
+    left: 1171px;
+    width: 583px;
+    height: 595px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 80px #00000029;
+    border-radius: 134px;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* integer */
+    margin-left: -250px;
+    margin-top: 55px;
+}
+
+.track-image03 {
+    top: 2319px;
+    left: 672px;
+    width: 625px;
+    height: 540px;
+    background: transparent url('images/Path\ 23.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 125px;
+}
+
+.track-text03 {
+    top: 2540px;
+    left: 1253px;
+    width: 403px;
+    height: 172px;
+    text-align: right;
+    font: normal normal normal 29px/43px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px;
+    margin-left: 25px;
+}
+
+.tracks-title {
+    top: 2061px;
+    left: 559px;
+    width: 906px;
+    height: 88px;
+    text-align: center;
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #8E9395;
+    opacity: 1;
 }
