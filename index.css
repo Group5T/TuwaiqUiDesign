@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.main {
-
-}
-
 .content-contener {
     display: flex;
     justify-content: center;
@@ -80,9 +76,6 @@
     background: transparent url('imgs/Path7.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
     width: 1000px;
-
-}
-.dd{
 
 }
 
